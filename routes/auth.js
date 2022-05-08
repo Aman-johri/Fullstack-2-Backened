@@ -4,7 +4,6 @@ const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const { body, validationResult } = require('express-validator/check');
 const { matchedData, sanitizeBody } = require('express-validator/filter');
-const { route } = require("./Posts");
 const cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken');
 
